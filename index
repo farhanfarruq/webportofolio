@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about hidden">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Foto Profil">
+                <p>
+                    Jenengku Farhan Miftakhul Farruq panggil aja paan, orang santai yang hidupnya cuma gitu² aja anjir. ini contoh proyek website poertofolionya dia (full AI jir awokawok) doain aja dia biar jadi progammer beneran, kalo ga jadi ya mau gimana lagi, jadi peternak lele juga alhamdulillah, udah gitu aja yappingnya.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects hidden">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <div class="img-container">
+                        <img src="project1.JPG" alt="Proyek 1">
+                    </div>
+                    <h3>bikin aplikasi android buat elena sama portal mahasiswa</h3>
+                    <p>Dokumentasi udah ilang jir, mosok download android studio lagi bejir (wajarlah laptop kentang).</p>
+                </div>
+                <div class="project-item">
+                    <div class="img-container">
+                        <img src="project2.JPG" alt="Proyek 1">
+                    </div>
+                    <h3>Project keduwa web ini sebenernya</h3>
+                    <p>Jujurly web ini 80% pake AI angjayy, yang penting digunakan dengan baik dan benar boshh</p>
+                </div>
+                <div class="project-item">
+                    <div class="img-container">
+                        <img src="project3.JPG" alt="Proyek 1">
+                    </div>
+                    <h3>Project ketiga apaan yak?</h3>
+                    <p>Infokan project ketiga kink, kalo reqwest aja mau gua buatin apaan (harga teman).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact hidden">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Kalo lu butuh programmer gamer ganteng idaman,call me lewat email aja ngab <a href="mailto: farhanmiftakhulfarruq@gmail.com">pencet aja, ini bukan phising</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Farhan Miftakhul Farruq. All rights reserved.</p>
+            <p>Dibuat dengan sepenuh hati oleh <a href="https://www.instagram.com/farhanmiftakhulfarruq?igsh=eWJwajZvbnR6dndz" target="_blank">paanjink</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

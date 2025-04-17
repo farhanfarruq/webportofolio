@@ -173,7 +173,7 @@ section::before {
 section h2 {
     position: relative;
     display: inline-block;
-    margin-bottom: 30px; /* Dikurangi dari 40px menjadi 30px */
+    margin-bottom: 30px; /* Dikurangi dari 40px medwnjadi 30px */
     font-size: 2rem; /* Dikurangi dari 2.5rem */
 }
 
