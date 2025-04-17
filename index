@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about hidden">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Foto Profil">
+                <p>
+                    Halo! Nama saya [Nama Anda]. Saya seorang [Profesi Anda] dengan pengalaman dalam [Bidang Anda]. Saya memiliki keahlian dalam [Keahlian Anda] dan telah mengerjakan berbagai proyek menarik.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects hidden">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Proyek 1">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi singkat tentang proyek pertama saya.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Proyek 2">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi singkat tentang proyek kedua saya.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project3.jpg" alt="Proyek 3">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi singkat tentang proyek ketiga saya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact hidden">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Jika Anda tertarik untuk bekerja sama, silakan hubungi saya melalui email di <a href="mailto:email@example.com">email@example.com</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [Nama Anda]. All rights reserved.</p>
+            <p>Dibuat dengan ❤️ oleh <a href="https://github.com/username" target="_blank">paanjink</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
